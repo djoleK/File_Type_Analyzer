@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/File_Type_Analyzer.iml" filepath="$PROJECT_DIR$/.idea/modules/File_Type_Analyzer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/File Type Analyzer/task/File_Type_Analyzer.File_Type_Analyzer-task.iml" filepath="$PROJECT_DIR$/.idea/modules/File Type Analyzer/task/File_Type_Analyzer.File_Type_Analyzer-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/File Type Analyzer/task/File_Type_Analyzer.File_Type_Analyzer-task.main.iml" filepath="$PROJECT_DIR$/.idea/modules/File Type Analyzer/task/File_Type_Analyzer.File_Type_Analyzer-task.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/File Type Analyzer/task/File_Type_Analyzer.File_Type_Analyzer-task.test.iml" filepath="$PROJECT_DIR$/.idea/modules/File Type Analyzer/task/File_Type_Analyzer.File_Type_Analyzer-task.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Check a number is positive/File_Type_Analyzer.Problems-Check_a_number_is_positive.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Check a number is positive/File_Type_Analyzer.Problems-Check_a_number_is_positive.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Check a number is positive/File_Type_Analyzer.Problems-Check_a_number_is_positive.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Check a number is positive/File_Type_Analyzer.Problems-Check_a_number_is_positive.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Check a number is positive/File_Type_Analyzer.Problems-Check_a_number_is_positive.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Check a number is positive/File_Type_Analyzer.Problems-Check_a_number_is_positive.test.iml" />
