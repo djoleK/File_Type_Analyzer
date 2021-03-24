@@ -22,3 +22,4 @@ content:
 - IntBinaryOperation
 - Shape hierarchy
 - Are siblings
+- Implement a default method
