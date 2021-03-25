@@ -7,6 +7,14 @@ class Book {
     public Book(String title, int yearOfPublishing, String[] authors) {
         this.title = title;
         this.yearOfPublishing = yearOfPublishing;
-        this.authors = authors;
+        this.authors = authors.clone();
+    }
+
+    @Override
+    public String toString() {
+        return "title=" + title +
+                ",yearOfPublishing=" + yearOfPublishing +
+                ",authors=[" + String.join(",", authors)
+                + "]";
     }
 }
