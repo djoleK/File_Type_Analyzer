@@ -7,6 +7,14 @@ class Person {
         this.name = name;
         this.age = age;
     }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name=" + name +
+                ",age=" + age +
+                '}';
+    }
 }
 
 class Patient extends Person {
@@ -16,5 +24,14 @@ class Patient extends Person {
     public Patient(String name, int age, int height) {
         super(name, age);
         this.height = height;
+    }
+
+    @Override
+    public String toString() {
+        return "Patient{" +
+                "name=" + name +
+                ",age=" + age +
+                ",height=" + height +
+                '}';
     }
 }
