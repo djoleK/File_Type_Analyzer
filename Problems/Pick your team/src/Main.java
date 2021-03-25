@@ -5,11 +5,11 @@ class SelectionContext {
     private PersonSelectionAlgorithm algorithm;
 
     public void setAlgorithm(PersonSelectionAlgorithm algorithm) {
-        // write your code here
+        this.algorithm = algorithm;
     }
 
     public Person[] selectPersons(Person[] persons) {
-        // write your code here
+        return algorithm.select(persons);
     }
 }
 
@@ -20,26 +20,38 @@ interface PersonSelectionAlgorithm {
 
 class TakePersonsWithStepAlgorithm implements PersonSelectionAlgorithm {
 
+    private int step;
+
     public TakePersonsWithStepAlgorithm(int step) {
-        // write your code here
+        this.step = step;
     }
 
     @Override
     public Person[] select(Person[] persons) {
-        // write your code here
+        Person[] people = new Person[(persons.length - 1) / step + 1];
+        for (int i = 0, j = 0; j < persons.length; i++, j += step) {
+            people[i] = persons[j];
+        }
+        return people;
     }
 }
 
 
 class TakeLastPersonsAlgorithm implements PersonSelectionAlgorithm {
 
+    private int count;
+
     public TakeLastPersonsAlgorithm(int count) {
-        // write your code here
+        this.count = count;
     }
 
     @Override
     public Person[] select(Person[] persons) {
-        // write your code here
+        Person[] people = new Person[count];
+        for (int i = 0; i < people.length; i++) {
+            people[i] = persons[persons.length - count + i];
+        }
+        return people;
     }
 }
 
@@ -52,7 +64,6 @@ class Person {
     }
 }
 
-/* Do not change code below */
 public class Main {
 
     public static void main(String[] args) {
