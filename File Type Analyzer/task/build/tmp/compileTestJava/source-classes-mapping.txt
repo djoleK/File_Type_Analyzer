@@ -1,0 +1,3 @@
+FileTypeAnalyzerTest.java
+ Clue
+ FileTypeAnalyzerTest
