@@ -14,7 +14,7 @@ public class Main {
             int len = newStr.length();
             newStr = str.charAt(index) + newStr;
             prefix = prefixFunction(newStr);
-            noOfSubstrings += (len + 1) - Arrays.stream(prefix).max().getAsInt();
+            noOfSubstrings += len + 1 - Arrays.stream(prefix).max().getAsInt();
             index++;
         }
         System.out.println(noOfSubstrings);
