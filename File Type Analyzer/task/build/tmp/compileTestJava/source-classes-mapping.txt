@@ -1,3 +1,8 @@
-FileTypeAnalyzerTest.java
+Clue.java
  Clue
- FileTypeAnalyzerTest
+NaiveSearch.java
+ NaiveSearch
+ContainsSearch.java
+ ContainsSearch
+MainTest.java
+ MainTest

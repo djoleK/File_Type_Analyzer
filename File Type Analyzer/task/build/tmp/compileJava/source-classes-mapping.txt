@@ -1,2 +1,10 @@
 analyzer/Main.java
  analyzer.Main
+analyzer/strategies/Strategy.java
+ analyzer.strategies.Strategy
+analyzer/strategies/PatternChecker.java
+ analyzer.strategies.PatternChecker
+analyzer/strategies/NaiveStrategy.java
+ analyzer.strategies.NaiveStrategy
+analyzer/strategies/KMPStrategy.java
+ analyzer.strategies.KMPStrategy
